@@ -7,7 +7,6 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage, ttk, Label, mes
     
 BASE_PATH = Path(__file__).parent
 
-# Adjust paths to be relative to BASE_PATH
 ASSETS_PATH = BASE_PATH / 'assets' / 'frame0'
 
 column_heading = ["Student_ID", "Student_Name","Contact_No", "Department"]
